@@ -1,0 +1,84 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome|zocial);
+body {
+    font-family: 'Amiri', serif, sans-serif;
+}
+
+header,
+article,
+footer,
+ul {
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+figure,
+img {
+    max-width: 100%;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+span {
+    font-size: 2em;
+}
+
+svg {
+    max-width: 100%;
+}
+
+footer {
+    margin-bottom: 100px;
+}
+
+.flourish {
+    margin-bottom: 1em;
+}
+
+[class*="zocial-"]:before {
+    display: inline-block;
+    font-family: 'zocial', sans-serif;
+    text-shadow: 3px 3px 3px #aaa;
+    width: 3vw;
+}
+
+.zocial a {
+    font-size: 1.5em;
+    margin: 3vw 0;
+    padding-right: 35px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:460px) {
+    .zocial a {
+        font-size: 1em;
+    }
+    .zocial {
+        margin: 3vw 0;
+    }
+}
+
+@media screen and (min-width:461px) {
+    #viewSource {
+        float: left;
+    }
+    .zocial {
+        float: right;
+    }
+}
